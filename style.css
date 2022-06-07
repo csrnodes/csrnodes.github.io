@@ -58,8 +58,8 @@ h5 {
   100%{background-position:0% 50%} }
 
 .digit-group input {
-  width: 100px;
-  height: 30px;
+  width: auto;
+  height: auto;
   background-color: #18182a;
   background-position: center;
   border: 1px solid white;
