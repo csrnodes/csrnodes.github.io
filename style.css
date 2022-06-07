@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200");
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+}
+
+
+
+.particles-wrapper {
+  background-color: #222;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+body {
+  background-color: #0f0f1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+ 
+
+h5 {
+ color: white;
+ text-align: center;
+ }
+
+ h6 {
+  color: white;
+  text-align: center;
+ }
+
+ h5 {
+  background-image: repeating-linear-gradient(45deg, violet, green, yellow, orange, red, violet);
+  text-align: center;
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 15px;
+  animation: rainbow 8s ease infinite;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  font-weight: bold;
+}
+ 
+ @keyframes rainbow { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 25%}
+  100%{background-position:0% 50%} }
+
+.digit-group input {
+  width: 100px;
+  height: 30px;
+  background-color: #18182a;
+  background-position: center;
+  border: 1px solid white;
+  line-height: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  color: white;
+  margin: auto;
+}
+
+.digit-group .splitter {
+  padding: 0 5px;
+  color: white;
+  font-size: 24px;
+}
+
+.prompt {
+  margin-bottom: 25px;
+  margin-top : auto;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background-position: center;
+
+}
+
+.button {
+	box-shadow: 0px 1px 32px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:8px;
+	border:2px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:4px 27px;
+	text-decoration:none;
+	text-shadow:0px -1px 11px #5b6178;
+	text-align: center;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.cool {
+  text-align: center;
+  width: 100%;
+}
